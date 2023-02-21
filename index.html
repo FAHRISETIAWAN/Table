@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.13.2/css/dataTables.bootstrap5.min.css">
+        <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/35b7f34150.js" crossorigin="anonymous"></script>
+       <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+        
+        <title>Table</title>
+    </head>
+    <body>
+
+           
+        <div class="container py-5">
+            <div class="alert hide">
+                <span class="fas fa-exclamation-circle"></span>
+                <span class="msg">Warning: Tabel Mahasiswa Disembunyikan!</span>
+                <span class="close-btn">
+                    <span class="fas fa-times"></span>
+                </span>
+            </div>
+            <div class="Block">
+               
+            <div class="row">
+               
+                <table id="example" class="table table-striped" style="width:100%">
+                    
+                    <thead  class="tab">
+                        <tr>
+                            <th>Nama</th>
+                            <th>NIM</th>
+                            <th>Prodi</th>
+                            <th>Universitas</th>
+                            <th>Semester</th>
+                            <th>Keterangan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dwi Retno Ayu Novianti</td>
+                            <td>071911133116</td>
+                            <td>Administrasi Publik</td>
+                            <td>Universitas Airlangga</td>
+                            <td>7</td>
+                            <td>Lulus</td>
+                        </tr>
+                        <tr>
+                            <td>Fahrul Rizky</td>
+                            <td>1181001004</td>
+                            <td>Manajemen</td>
+                            <td>Universitas Bakrie</td>
+                            <td>7</td>
+                            <td>Lulus</td>
+                        </tr>
+                        <tr>
+                            <td>Klariza Dwi Ramadhani</td>
+                            <td>195100501111029</td>
+                            <td>Ilmu Hukum</td>
+                            <td>Universitas Brawijaya</td>
+                            <td>5</td>
+                            <td>Tidak Lulus</td>
+                        </tr>
+                        <tr>
+                            <td>Glorya Khoirunnissa </td>
+                            <td>1906300750</td>
+                            <td>Teknik Komputer</td>
+                            <td>Universitas Indonesia</td>
+                            <td>7</td>
+                            <td>Lulus</td>
+                        </tr>
+                        <tr>
+                            <td>Sindhi Mery Handayani</td>
+                            <td>19442609PA19358</td>
+                            <td>Statistika</td>
+                            <td>Universitas Gadjah Mada</td>
+                            <td>7</td>
+                            <td>Lulus</td>
+                        </tr>
+                        <tr>
+                            <td>Akbar Rais Madani</td>
+                            <td>201946500286</td>
+                            <td>Desain Komunikasi Visual</td>
+                            <td>Universitas Indraprasta PGRI</td>
+                            <td>7</td>
+                            <td>Tidak Lulus</td>
+                        </tr>
+                        <tr>
+                            <td>Rio Alvian Syach</td>
+                            <td>192410101069</td>
+                            <td>Sistem Informasi </td>
+                            <td>Universitas Jember</td>
+                            <td>5</td>
+                            <td>Tidak Lulus</td>
+                        </tr>
+                        <tr>
+                            <td>Shafa Ridha Hanifah</td>
+                            <td>200413623322</td>
+                            <td>Manajemen </td>
+                            <td>Universitas Negeri Malang </td>
+                            <td>5</td>
+                            <td>Lulus</td>
+                        </tr>
+                        <tr>
+                            <td>Gustian Abrary Shidqi</td>
+                            <td>1910512097</td>
+                            <td>Sistem Informasi</td>
+                            <td>UPN Jakarta</td>
+                            <td>7</td>
+                            <td>Lulus</td>
+                        </tr>
+                        <tr>
+                            <td>Diana Eka Riyani </td>
+                            <td>24010119140041</td>
+                            <td>Matematika</td>
+                            <td>Universitas Diponegoro</td>
+                            <td>7</td>
+                            <td>Lulus</td>
+                        </tr>
+                        <tr>
+                            <td>Jena Gaines</td>
+                            <td>12030118130239</td>
+                            <td>Akuntansi </td>
+                            <td>Universitas Diponegoro</td>
+                            <td>9</td>
+                            <td>Tidak Lulus</td>
+                        </tr>
+                        <tr>
+                            <td>Setiawan Arinda Nugraha</td>
+                            <td>1905350</td>
+                            <td>Manajemen</td>
+                            <td>Universitas Pendidikan Indonesia</td>
+                            <td>5</td>
+                            <td>Lulus</td>
+                        </tr>
+                        <tr>
+                            <td>Mohammad Ichsan Verianto</td>
+                            <td>041911133063</td>
+                            <td>Ekonomi Pembangunan</td>
+                            <td>Universitas Airlangga </td>
+                            <td>7</td>
+                            <td>Lulus</td>
+                        </tr>
+                        <tr>
+                            <td>Riksa Candra Nugraha</td>
+                            <td>1910502043</td>
+                            <td>Teknik Mesin </td>
+                            <td>Universitas Tidar</td>
+                            <td>5</td>
+                            <td>Tidak Lulus</td>
+                        </tr>
+                        <tr>
+                            <td>Shafira Meiriska Putri</td>
+                            <td>205120201111051</td>
+                            <td>Ilmu Komunikasi </td>
+                            <td>Universitas Brawijaya</td>
+                            <td>5</td>
+                            <td>Lulus</td>
+                        </tr>
+                        <tr>
+                            <td>Muhammad Farid Ni`Am</td>
+                            <td>07111940000121</td>
+                            <td>Teknik Elektro </td>
+                            <td>Institut Teknologi Sepuluh Nopember</td>
+                            <td>7</td>
+                            <td>Tidak Lulus</td>
+                        </tr>
+                        <tr>
+                            <td>Muhammad Fadlan Fasya</td>
+                            <td>140810190006</td>
+                            <td>Teknik Informatika</td>
+                            <td>Universitas Padjadjaran</td>
+                            <td>5</td>
+                            <td>Lulus</td>
+                        </tr>
+                        <tr>
+                            <td>Cindy Dwi Meylinda</td>
+                            <td>1905531050</td>
+                            <td>Teknik Mesin</td>
+                            <td>Universitas Udayana</td>
+                            <td>7</td>
+                            <td>Lulus</td>
+                        </tr>
+                        <tr>
+                            <td>Raindo Sianturi</td>
+                            <td>15119191</td>
+                            <td>Teknik Geodesi dan Geomatika</td>
+                            <td>Institut Teknologi Bandung</td>
+                            <td>7</td>
+                            <td>Lulus</td>
+                        </tr>
+                        <tr>
+                            <td>Fadhilah Mufidah </td>
+                            <td>02411940000175</td>
+                            <td>Teknik Industri</td>
+                            <td>Institut Teknologi Sepuluh Nopember</td>
+                            <td>7</td>
+                            <td>Lulus</td>
+                        </tr>
+                        <tr>
+                            <td>Faradila Anfasa </td>
+                            <td>12010119130212</td>
+                            <td>Manajemen </td>
+                            <td>Universitas Diponegoro </td>
+                            <td>7</td>
+                            <td>Tidak Lulus</td>
+                        </tr>
+                        <tr>
+                            <td>Alfian Makruf Nur Sholehudin</td>
+                            <td>200190184</td>
+                            <td>Teknik Informasi</td>
+                            <td>Universitas Muhammadiyah Surakarta</td>
+                            <td>7</td>
+                            <td>Tidak Lulus</td>
+                        </tr>
+                   
+                    </tbody>
+                    <tfoot>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="col">
+                <button type="button" id="toggleBtn" class="btn-primary">Hide Table</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+       
+    </div>
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/1.13.2/js/dataTables.bootstrap5.min.js "></script>
+        <script src="D:\html\table\app.js"></script>
+
+    </body>
+</html>
